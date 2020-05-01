@@ -89,9 +89,9 @@ class Crawler_CGE:
                                 if cont_end_ref == 0 and cont_features == 0:
                                     periodo = m
                                 elif cont_end_ref == 1 and cont_features == 0:
-                                    sentido = m
-                                elif cont_end_ref == 0 and cont_features == 1:
                                     endereco = m
+                                elif cont_end_ref == 0 and cont_features == 1:
+                                    sentido = m
                                 elif cont_end_ref == 1 and cont_features == 1:
                                     referencia = m
 
